@@ -1,0 +1,6 @@
+(executable
+ (name uncors)
+ (libraries dream server-reason-react.react server-reason-react.reactDom)
+ (public_name uncors)
+ (preprocess
+  (pps lwt_ppx)))
